@@ -1,0 +1,111 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:typens="urn:Ariba:Buyer:vsap">
+	<soapenv:Body>
+		<typens:RequisitionImportPullRequest>
+			<typens:Requisition_RequisitionImportPull_Item>
+
+				<typens:item>
+
+					<typens:CompanyCode>
+
+						<typens:UniqueName>9009</typens:UniqueName>
+
+					</typens:CompanyCode>
+
+					<typens:DefaultLineItem>
+
+						<typens:DeliverTo></typens:DeliverTo>
+
+					</typens:DefaultLineItem>
+
+					<typens:ImportedHeaderCommentStaging>Test</typens:ImportedHeaderCommentStaging>
+					<typens:LineItems>
+						<typens:item>
+							<typens:CommodityCode>
+								<typens:UniqueName>R1134</typens:UniqueName>
+							</typens:CommodityCode>
+							<typens:BillingAddress>
+							<typens:UniqueName>9999</typens:UniqueName>
+							</typens:BillingAddress>
+							<typens:Description>
+								<typens:CommonCommodityCode>
+									<typens:Domain>unspsc</typens:Domain>
+									<typens:UniqueName>26</typens:UniqueName>
+								</typens:CommonCommodityCode>
+								<typens:Description></typens:Description>
+								<typens:ManPartNumber>AD567</typens:ManPartNumber>
+								<typens:Price>
+									<typens:Amount></typens:Amount>
+									<typens:Currency><typens:UniqueName></typens:UniqueName></typens:Currency>
+								</typens:Price>
+								<typens:SupplierPartAuxiliaryID></typens:SupplierPartAuxiliaryID>
+							</typens:Description>
+							<typens:ImportedAccountingsStaging>
+								<typens:SplitAccountings>
+									<typens:item>
+										<typens:Asset>
+											<typens:CompanyCode>
+												<typens:UniqueName>9009</typens:UniqueName>
+											</typens:CompanyCode>
+											<typens:SubNumber>0000</typens:SubNumber>
+											<typens:UniqueName>10001</typens:UniqueName>
+										</typens:Asset>
+										<typens:CostCenter>
+											<typens:CompanyCode>
+												<typens:UniqueName>9009</typens:UniqueName>
+											</typens:CompanyCode>
+											<typens:UniqueName>0000990000</typens:UniqueName>
+										</typens:CostCenter>
+										<typens:GeneralLedger>
+											<typens:CompanyCode>
+												<typens:UniqueName>9009</typens:UniqueName>
+											</typens:CompanyCode>
+										</typens:GeneralLedger>
+										<typens:NumberInCollection>1</typens:NumberInCollection>
+										<typens:Percentage>100</typens:Percentage>
+										<typens:Quantity>1</typens:Quantity>
+
+									</typens:item>
+								</typens:SplitAccountings>
+							</typens:ImportedAccountingsStaging>
+							<typens:ImportedDeliverToStaging>Noida</typens:ImportedDeliverToStaging>
+							<typens:ItemCategory>
+								<typens:UniqueName>M</typens:UniqueName>
+							</typens:ItemCategory>
+							<typens:NumberInCollection>1</typens:NumberInCollection>
+							<typens:PurchaseGroup>
+								<typens:UniqueName>940</typens:UniqueName>
+							</typens:PurchaseGroup>
+							<typens:PurchaseOrg>
+								<typens:UniqueName>9900</typens:UniqueName>
+							</typens:PurchaseOrg>
+							<typens:Quantity>1</typens:Quantity>
+							<typens:ShipTo>
+								<typens:UniqueName>9999</typens:UniqueName>
+							</typens:ShipTo>
+							<typens:Supplier>
+								<typens:UniqueName>0000099984</typens:UniqueName>
+							</typens:Supplier>
+							<typens:custom>
+								<typens:CustomMoney>
+									<typens:Currency><typens:UniqueName></typens:UniqueName></typens:Currency>
+								</typens:CustomMoney>
+							</typens:custom>
+						</typens:item>
+					</typens:LineItems>
+					<typens:Name></typens:Name>
+					<typens:Preparer>
+						<typens:PasswordAdapter>PasswordAdapter1</typens:PasswordAdapter>
+						<typens:UniqueName>mvajrala</typens:UniqueName>
+					</typens:Preparer>
+					<typens:Requester>
+						<typens:PasswordAdapter>PasswordAdapter1</typens:PasswordAdapter>
+						<typens:UniqueName>jagrati.agrawal</typens:UniqueName>
+					</typens:Requester>
+					<typens:UniqueName>RI0015</typens:UniqueName>
+				</typens:item>
+
+			</typens:Requisition_RequisitionImportPull_Item>
+		</typens:RequisitionImportPullRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
